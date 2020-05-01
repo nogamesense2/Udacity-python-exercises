@@ -2,7 +2,7 @@ given_name = "William"
 middle_name = "Bradley"
 family_name = "Pitt"
 
-name_length = len(given_name + middle_name + family_name)
+name_length = len(given_name + middle_name + family_name) + 2
 
 # Now we check to make sure that the name fits within the driving license character limit
 # Nothing you need to do here
