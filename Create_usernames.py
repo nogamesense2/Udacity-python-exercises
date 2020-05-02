@@ -3,7 +3,9 @@ usernames = []
 
 # write your for loop here
 for i in names:
+    i = i.lower()
     i = i.replace(' ', '_')
     usernames.append(i)
 
 print(usernames)
+
